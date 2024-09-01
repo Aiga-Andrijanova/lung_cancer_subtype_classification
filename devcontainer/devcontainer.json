@@ -1,0 +1,21 @@
+{
+	"name": "leo-afm-ml-devcontainer",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": [
+		"--gpus=all"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.black-formatter",
+				"ms-toolsai.jupyter",
+				"mechatroner.rainbow-csv"
+			]
+		}
+	},
+	"remoteUser": "vscode",
+	"postCreateCommand": "pip install -r /workspaces/leo-afm-ml/.devcontainer/requirements.txt"
+}

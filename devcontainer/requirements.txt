@@ -1,0 +1,16 @@
+jupyterlab
+opencv-python == 4.10.0.84
+numpy == 2.0.2
+pandas == 2.2.2
+matplotlib == 3.9.2
+tqdm == 4.66.5
+seaborn == 0.13.2
+pyjson5 ==1.6.6
+marshmallow == 3.22.0
+mysql-connector-python == 9.0.0
+Boruta == 0.6.3
+ucimlrepo == 0.0.7
+xgboost == 2.1.1
+networkx == 3.3
+pgmpy == 0.1.26
+scikit-learn == 1.5.1
