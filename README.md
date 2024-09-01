@@ -28,4 +28,4 @@ This project investigates the potential of integrating biophysical measurements 
 ## Usage
 
 1. Clone the repository
-2. Install the required dependencies: `pip install -r /.devcontainer/requirements.txt` or use the provided devcontainer
+2. Install the required dependencies: `pip install -r devcontainer/requirements.txt` or use the provided devcontainer
